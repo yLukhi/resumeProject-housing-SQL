@@ -72,11 +72,6 @@ SET [Patient's   Phone  Number] =  SUBSTRING([Patient's  Phone  Number], 	1, 	3)
 
 
 
-
-
-
-
-
 SELECT r.ProtCode
 						,SUM(CASE  WHEN  R.Recommendation  LIKE	'%current'  THEN 1
 								ELSE  0
