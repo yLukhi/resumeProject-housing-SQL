@@ -3,8 +3,6 @@
 TRUNCATE TABLE	[Database1].dbo.Example
 
 
-
-
 INSERT INTO Scorecard.[dbo].Example
 SELECT  DISTINCT  Masterkey
 FROM	[AggregateDatabase1].dbo.[Example_Table]
